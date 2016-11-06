@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/11/2016, 15:43:33
+    Author     : Renan
+*/
+
+body {
+    background-color: #CCCCCC;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+section {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+code {
+    background-color: #DDDDDD;
+    display: block;
+    padding: 12px 0;
+}
+
+.information {
+    display: inline-block;
+    background-color: #D13438;
+    color: #FFFFFF;
+    float: right;
+}
+
+.information a {
+    color: #FFFFFF;
+    display: block;
+    line-height: 48px;
+    padding: 0 24px;
+    text-decoration: none;
+}
+
+.information a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#download div {
+    text-align: center;
+}
+
+#botaoDownload {
+    float: none;
+}
